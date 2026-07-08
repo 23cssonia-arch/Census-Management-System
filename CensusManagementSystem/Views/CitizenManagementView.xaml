@@ -1,0 +1,366 @@
+﻿<Page x:Class="CensusManagementSystem.Views.CitizenManagementView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Citizen Management">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Resources>
+            <Style TargetType="ComboBoxItem">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Padding" Value="10,6"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#5DADE2"/>
+                        <Setter Property="Foreground" Value="White"/>
+                    </Trigger>
+                    <Trigger Property="IsSelected" Value="True">
+                        <Setter Property="Background" Value="#1A3C5E"/>
+                        <Setter Property="Foreground" Value="White"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <Style TargetType="ComboBox">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Padding" Value="8,0,0,0"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ComboBox">
+                            <Grid x:Name="templateRoot" SnapsToDevicePixels="true">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="32"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Border x:Name="BgBorder" 
+                                        Grid.ColumnSpan="2" 
+                                        Background="{TemplateBinding Background}" 
+                                        CornerRadius="6"/>
+
+                                <ContentPresenter x:Name="contentPresenter" 
+                                                  Content="{TemplateBinding SelectionBoxItem}" 
+                                                  ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" 
+                                                  ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" 
+                                                  Margin="{TemplateBinding Padding}" 
+                                                  IsHitTestVisible="false" 
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                                <TextBox x:Name="PART_EditableTextBox" 
+                                         HorizontalAlignment="Stretch" 
+                                         VerticalAlignment="Stretch" 
+                                         Margin="{TemplateBinding Padding}" 
+                                         Focusable="true" 
+                                         IsReadOnly="{TemplateBinding IsReadOnly}"
+                                         Foreground="White"
+                                         Background="Transparent"
+                                         BorderThickness="0"
+                                         VerticalContentAlignment="Center"
+                                         Visibility="Collapsed"/>
+
+                                <ToggleButton x:Name="toggleButton" 
+                                              Grid.Column="1" 
+                                              Background="Transparent" 
+                                              BorderThickness="0"
+                                              IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                    <ToggleButton.Template>
+                                        <ControlTemplate TargetType="ToggleButton">
+                                            <Border Background="Transparent">
+                                                <Path x:Name="arrow" 
+                                                      Data="M0,0 L4,4 L8,0 Z" 
+                                                      Fill="#AED6F1" 
+                                                      HorizontalAlignment="Center" 
+                                                      VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </ToggleButton.Template>
+                                </ToggleButton>
+
+                                <Popup x:Name="PART_Popup" 
+                                       AllowsTransparency="true" 
+                                       Grid.ColumnSpan="2" 
+                                       IsOpen="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}" 
+                                       Placement="Bottom" 
+                                       PopupAnimation="Slide">
+                                    <Border x:Name="dropDownBorder" 
+                                            Background="#0F2B46" 
+                                            BorderBrush="#1A3C5E" 
+                                            BorderThickness="1" 
+                                            CornerRadius="6"
+                                            Margin="0,2,0,0"
+                                            MinWidth="{Binding ActualWidth, ElementName=templateRoot}" 
+                                            MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                        <ScrollViewer x:Name="DropDownScrollViewer" SnapsToDevicePixels="True">
+                                            <ItemsPresenter x:Name="itemsPresenter" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                        </ScrollViewer>
+                                    </Border>
+                                </Popup>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEditable" Value="true">
+                                    <Setter TargetName="PART_EditableTextBox" Property="Visibility" Value="Visible"/>
+                                    <Setter TargetName="contentPresenter" Property="Visibility" Value="Collapsed"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBox x:Name="TxtSearch" Width="250" Height="36" FontSize="13"
+                     FontFamily="Segoe UI" Padding="10,0,0,0" VerticalContentAlignment="Center"
+                     Background="#1A3C5E" Foreground="White" BorderThickness="0"
+                     CaretBrush="#5DADE2" KeyDown="TxtSearch_KeyDown">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="8"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <Button Content="Search" Height="36" FontSize="12" FontWeight="SemiBold"
+                    Background="#5DADE2" Foreground="White" BorderThickness="0"
+                    Margin="10,0,0,0" Padding="15,0" Click="BtnSearch_Click" Cursor="Hand">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="8"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Show All" Height="36" FontSize="12"
+                    Background="#7F8C8D" Foreground="White" BorderThickness="0"
+                    Margin="10,0,0,0" Padding="15,0" Click="BtnShowAll_Click" Cursor="Hand">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="8"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Rectangle Width="20"/>
+            <TextBlock Text="Filter by Gender:" FontSize="12" Foreground="#AED6F1"
+                       FontFamily="Segoe UI" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <ComboBox x:Name="CmbGenderFilter" Width="100" Height="36" FontSize="12"
+                      Background="#1A3C5E" SelectionChanged="CmbGenderFilter_SelectionChanged">
+                <ComboBoxItem Content="All" IsSelected="True"/>
+                <ComboBoxItem Content="Male"/>
+                <ComboBoxItem Content="Female"/>
+            </ComboBox>
+        </StackPanel>
+
+        <Border Grid.Row="1" Background="#1A3C5E" CornerRadius="12" Padding="15" Margin="0,0,0,10">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" MaxHeight="200">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,8,8">
+                        <TextBlock Text="CNIC" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <TextBox x:Name="TxtCNIC" Height="32" FontSize="12" FontFamily="Segoe UI"
+                                 Padding="8,0,0,0" VerticalContentAlignment="Center"
+                                 Background="#0F2B46" Foreground="White" BorderThickness="0" CaretBrush="#5DADE2">
+                            <TextBox.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="0,0,8,8">
+                        <TextBlock Text="Full Name" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <TextBox x:Name="TxtFullName" Height="32" FontSize="12" FontFamily="Segoe UI"
+                                 Padding="8,0,0,0" VerticalContentAlignment="Center"
+                                 Background="#0F2B46" Foreground="White" BorderThickness="0" CaretBrush="#5DADE2">
+                            <TextBox.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Margin="0,0,8,8">
+                        <TextBlock Text="Gender" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="CmbGender" Height="32" FontSize="12" Background="#0F2B46">
+                            <ComboBoxItem Content="Male"/>
+                            <ComboBoxItem Content="Female"/>
+                            <ComboBoxItem Content="Other"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="3" Margin="0,0,8,8">
+                        <TextBlock Text="Date of Birth" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <DatePicker x:Name="DpDOB" Height="32" FontSize="12" FontFamily="Segoe UI"
+                                    Background="#0F2B46" Foreground="White" BorderThickness="0"
+                                    SelectedDateFormat="Short">
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="Background" Value="#0F2B46"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="BorderThickness" Value="0"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,8,8">
+                        <TextBlock Text="Age" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <TextBox x:Name="TxtAge" Height="32" FontSize="12" FontFamily="Segoe UI"
+                                 Padding="8,0,0,0" VerticalContentAlignment="Center"
+                                 Background="#0F2B46" Foreground="White" BorderThickness="0" CaretBrush="#5DADE2">
+                            <TextBox.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1" Margin="0,0,8,8">
+                        <TextBlock Text="Marital Status" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="CmbMaritalStatus" Height="32" FontSize="12" Background="#0F2B46">
+                            <ComboBoxItem Content="Single"/>
+                            <ComboBoxItem Content="Married"/>
+                            <ComboBoxItem Content="Divorced"/>
+                            <ComboBoxItem Content="Widowed"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,0,8,8">
+                        <TextBlock Text="Education" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="CmbEducation" Height="32" FontSize="12"
+                                  Background="#0F2B46" IsEditable="True">
+                            <ComboBoxItem Content="None"/>
+                            <ComboBoxItem Content="Primary"/>
+                            <ComboBoxItem Content="Middle"/>
+                            <ComboBoxItem Content="Matric"/>
+                            <ComboBoxItem Content="Intermediate"/>
+                            <ComboBoxItem Content="Bachelor"/>
+                            <ComboBoxItem Content="Master"/>
+                            <ComboBoxItem Content="PhD"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="3" Margin="0,0,8,8">
+                        <TextBlock Text="Occupation" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <TextBox x:Name="TxtOccupation" Height="32" FontSize="12" FontFamily="Segoe UI"
+                                 Padding="8,0,0,0" VerticalContentAlignment="Center"
+                                 Background="#0F2B46" Foreground="White" BorderThickness="0" CaretBrush="#5DADE2">
+                            <TextBox.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="6"/>
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,8,8">
+                        <TextBlock Text="Relationship with Head" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="CmbRelationship" Height="32" FontSize="12" Background="#0F2B46">
+                            <ComboBoxItem Content="Self (Head)"/>
+                            <ComboBoxItem Content="Spouse"/>
+                            <ComboBoxItem Content="Son"/>
+                            <ComboBoxItem Content="Daughter"/>
+                            <ComboBoxItem Content="Father"/>
+                            <ComboBoxItem Content="Mother"/>
+                            <ComboBoxItem Content="Brother"/>
+                            <ComboBoxItem Content="Sister"/>
+                            <ComboBoxItem Content="Other"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="1" Margin="0,0,8,8">
+                        <TextBlock Text="Household" FontSize="11" Foreground="#AED6F1" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="CmbHousehold" Height="32" FontSize="12" Background="#0F2B46">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding HouseNumber}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                        <StackPanel Orientation="Horizontal">
+                            <Button x:Name="BtnAdd" Content="Add Citizen" Height="34" FontSize="12" FontWeight="SemiBold"
+                                    Background="#27AE60" Foreground="White" BorderThickness="0"
+                                    Padding="12,0" Click="BtnAdd_Click" Cursor="Hand" Margin="0,0,5,0">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="6"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="BtnUpdate" Content="Update" Height="34" FontSize="12" FontWeight="SemiBold"
+                                    Background="#F39C12" Foreground="White" BorderThickness="0"
+                                    Padding="12,0" Click="BtnUpdate_Click" Cursor="Hand" Visibility="Collapsed" Margin="0,0,5,0">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="6"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                            <Button x:Name="BtnCancel" Content="Cancel" Height="34" FontSize="12"
+                                    Background="#7F8C8D" Foreground="White" BorderThickness="0"
+                                    Padding="12,0" Click="BtnCancel_Click" Cursor="Hand" Visibility="Collapsed">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="6"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </Border>
+
+        <DataGrid x:Name="DgCitizens" Grid.Row="2" AutoGenerateColumns="False"
+                  Background="Transparent" RowBackground="white"
+                  AlternatingRowBackground="#132E4A" Foreground="#132E4A" FontWeight="Bold"
+                  BorderThickness="0" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#1A3C5E" IsReadOnly="True"
+                  SelectionMode="Single" FontFamily="Segoe UI" FontSize="11"
+                  SelectionChanged="DgCitizens_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CitizenId}" Width="40"/>
+                <DataGridTextColumn Header="CNIC" Binding="{Binding CNIC}" Width="110"/>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="130"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="55"/>
+                <DataGridTextColumn Header="DOB" Binding="{Binding DateOfBirth, StringFormat={}{0:dd/MM/yyyy}}" Width="80"/>
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}" Width="40"/>
+                <DataGridTextColumn Header="Marital" Binding="{Binding MaritalStatus}" Width="65"/>
+                <DataGridTextColumn Header="Education" Binding="{Binding Education}" Width="80"/>
+                <DataGridTextColumn Header="Occupation" Binding="{Binding Occupation}" Width="90"/>
+                <DataGridTextColumn Header="Relation" Binding="{Binding RelationshipWithHead}" Width="70"/>
+                <DataGridTextColumn Header="House" Binding="{Binding HouseNumber}" Width="60"/>
+                <DataGridTemplateColumn Width="60">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete" FontSize="9" Background="#922B21"
+                                    Foreground="White" BorderThickness="0" Padding="4,1"
+                                    Click="BtnDelete_Click" Cursor="Hand"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

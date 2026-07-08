@@ -1,0 +1,521 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\householdmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\householdmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\householdmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\householdmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\dataaccess\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\dataaccess\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\citizenmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\citizenmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\citizenmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\citizenmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\areamanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\areamanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\areamanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\areamanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\censusmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\censusmanagementsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\helper\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\helper\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\helper\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\helper\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\services\\householdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\services\\householdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\services\\citizenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\services\\citizenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\services\\areaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\services\\areaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\splashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\splashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\censusmanagementsystem\\windows\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\dashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\censusmanagementsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\splashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\splashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|c:\\users\\tokyo tech\\source\\repos\\censusmanagementsystem\\censusmanagementsystem\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\windows\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\censusmanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C79069F9-3DF5-4E2C-96A1-D1E2FDC97A80}|CensusManagementSystem\\CensusManagementSystem.csproj|solutionrelative:censusmanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HouseholdManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\HouseholdManagementView.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\HouseholdManagementView.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\HouseholdManagementView.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\HouseholdManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T16:15:52.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HouseholdManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\HouseholdManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\HouseholdManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\HouseholdManagementView.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\HouseholdManagementView.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwD4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:12:11.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CitizenManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\CitizenManagementView.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\CitizenManagementView.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\CitizenManagementView.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\CitizenManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T15:41:50.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportsView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\ReportsView.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\ReportsView.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\ReportsView.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\ReportsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T16:10:55.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.config",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\App.config",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.config",
+              "RelativeToolTip": "CensusManagementSystem\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-05T12:54:06.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\DataAccess\\DataBaseHelper.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\DataAccess\\DataBaseHelper.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\DataAccess\\DataBaseHelper.cs",
+              "RelativeToolTip": "CensusManagementSystem\\DataAccess\\DataBaseHelper.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T12:57:15.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitizenManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\CitizenManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\CitizenManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\CitizenManagementView.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\CitizenManagementView.xaml.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAswCYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:11:58.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AreaManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\AreaManagementView.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\AreaManagementView.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\AreaManagementView.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\AreaManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T16:19:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AreaManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\AreaManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\AreaManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\AreaManagementView.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\AreaManagementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:11:50.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T12:55:17.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\SessionManager.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Helper\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\SessionManager.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Helper\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:10:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReportsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\ReportsView.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\ReportsView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\ReportsView.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\ReportsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:12:15.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CitizenService.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\CitizenService.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Services\\CitizenService.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\CitizenService.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Services\\CitizenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:13:40.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\AuthService.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:13:31.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HouseholdService.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\HouseholdService.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Services\\HouseholdService.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\HouseholdService.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Services\\HouseholdService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:13:48.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AreaService.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\AreaService.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Services\\AreaService.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\AreaService.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Services\\AreaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:12:52.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Helper\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\ValidationHelper.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Helper\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:10:56.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Services\\ReportService.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:13:57.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:12:06.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T15:11:56.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SplashScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\SplashScreen.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\SplashScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\SplashScreen.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\SplashScreen.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:56:46.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\RegisterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:11:31.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:11:22.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Helper\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:10:46.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DashboardWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\DashboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\DashboardWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\DashboardWindow.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\DashboardWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T12:50:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\App.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\App.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T12:54:54.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\RegisterWindow.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T14:55:46.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SplashScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\SplashScreen.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\SplashScreen.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\SplashScreen.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\SplashScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T14:56:36.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\Windows\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\Windows\\LoginWindow.xaml",
+              "RelativeToolTip": "CensusManagementSystem\\Windows\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-05T14:55:37.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CensusManagementSystem\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tokyo Tech\\source\\repos\\CensusManagementSystem\\CensusManagementSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CensusManagementSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T12:08:15.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

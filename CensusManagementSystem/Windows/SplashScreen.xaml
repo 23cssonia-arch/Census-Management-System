@@ -1,0 +1,114 @@
+﻿<Window x:Class="CensusManagementSystem.Windows.SplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Census Management System"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        Width="600" Height="400"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <CubicEase x:Key="SplashEase" EasingMode="EaseInOut"/>
+    </Window.Resources>
+
+    <Border CornerRadius="15" Background="#0F2B46" Margin="10">
+        <Border.Effect>
+            <DropShadowEffect Color="#0a1f33" BlurRadius="15" ShadowDepth="3" Opacity="0.8"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <!-- Logo / Icon Area -->
+            <StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,40,0,10">
+
+                <Border Width="90" Height="90" CornerRadius="45" Background="#1A5276" Margin="0,0,0,15">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#2471A3" BlurRadius="10" ShadowDepth="0" Opacity="0.6"/>
+                    </Border.Effect>
+
+                    <TextBlock Text="📊"
+                               FontSize="40"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+
+                <TextBlock Text="CENSUS MANAGEMENT"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           FontFamily="Segoe UI"/>
+
+                <TextBlock Text="SYSTEM"
+                           FontSize="20"
+                           FontWeight="Light"
+                           Foreground="#5DADE2"
+                           HorizontalAlignment="Center"
+                           FontFamily="Segoe UI"
+                           Margin="0,2,0,0"/>
+            </StackPanel>
+
+            <!-- Subtitle -->
+            <TextBlock Grid.Row="1"
+                       Text="Government of Pakistan - Population Census"
+                       FontSize="13"
+                       Foreground="#AED6F1"
+                       HorizontalAlignment="Center"
+                       FontFamily="Segoe UI"
+                       Margin="0,0,0,20"/>
+
+            <!-- Loading Bar -->
+            <Grid Grid.Row="2" Margin="60,0,60,15">
+                <Border Background="#1A3C5E" CornerRadius="4" Height="6"/>
+                <Border x:Name="ProgressBar"
+                        Background="#5DADE2"
+                        CornerRadius="4"
+                        Height="6"
+                        HorizontalAlignment="Left"
+                        Width="0">
+
+                    <Border.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="ProgressBar"
+                                                     Storyboard.TargetProperty="Width"
+                                                     From="0" To="480"
+                                                     Duration="0:0:3"
+                                                     EasingFunction="{StaticResource SplashEase}"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Border.Triggers>
+                </Border>
+            </Grid>
+
+            <!-- Status Text -->
+            <TextBlock x:Name="StatusText"
+                       Grid.Row="3"
+                       Text="Initializing..."
+                       FontSize="11"
+                       Foreground="#7FB3D3"
+                       HorizontalAlignment="Center"
+                       FontFamily="Segoe UI"
+                       Margin="0,0,0,10"/>
+
+            <!-- Version -->
+            <TextBlock Grid.Row="4"
+                       Text="v1.0.0"
+                       FontSize="9"
+                       Foreground="#4A7A9B"
+                       HorizontalAlignment="Center"
+                       FontFamily="Segoe UI"/>
+        </Grid>
+    </Border>
+</Window>

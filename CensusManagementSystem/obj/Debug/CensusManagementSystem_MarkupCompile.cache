@@ -1,0 +1,20 @@
+﻿CensusManagementSystem
+
+
+winexe
+C#
+.cs
+C:\Users\Tokyo Tech\source\repos\CensusManagementSystem\CensusManagementSystem\obj\Debug\
+CensusManagementSystem
+none
+false
+DEBUG;TRACE
+C:\Users\Tokyo Tech\source\repos\CensusManagementSystem\CensusManagementSystem\App.xaml
+10-1241819175
+
+32322793239
+53-1194591661
+MainWindow.xaml;Views\AreaManagementView.xaml;Views\CitizenManagementView.xaml;Views\DashboardView.xaml;Views\HouseholdManagementView.xaml;Views\ReportsView.xaml;Windows\DashboardWindow.xaml;Windows\LoginWindow.xaml;Windows\RegisterWindow.xaml;Windows\SplashScreen.xaml;
+
+False
+

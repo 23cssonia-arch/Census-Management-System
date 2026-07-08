@@ -1,0 +1,110 @@
+﻿<Page x:Class="CensusManagementSystem.Views.ReportsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Reports">
+
+    <Grid>
+        <TabControl Background="Transparent" BorderThickness="0" FontFamily="Segoe UI">
+
+            <!-- Population by Province -->
+            <TabItem Header="  Population by Province  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgProvincePopulation" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="white" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              HorizontalGridLinesBrush="#1A3C5E" IsReadOnly="True"
+                              FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Population by Area -->
+            <TabItem Header="  Population by Area  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgAreaPopulation" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#0F2B46" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              HorizontalGridLinesBrush="#1A3C5E" IsReadOnly="True"
+                              FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Gender Distribution -->
+            <TabItem Header="  Gender Distribution  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
+                        <StackPanel Margin="0,0,30,0">
+                            <TextBlock Text="Male" FontSize="14" Foreground="#5DADE2" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                            <TextBlock x:Name="LblMaleCount" Text="0" FontSize="36" FontWeight="Bold"
+                                       Foreground="#5DADE2" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel Margin="0,0,30,0">
+                            <TextBlock Text="Female" FontSize="14" Foreground="#E8739A" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                            <TextBlock x:Name="LblFemaleCount" Text="0" FontSize="36" FontWeight="Bold"
+                                       Foreground="#E8739A" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBlock Text="Other" FontSize="14" Foreground="#F39C12" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                            <TextBlock x:Name="LblOtherCount" Text="0" FontSize="36" FontWeight="Bold"
+                                       Foreground="#F39C12" FontFamily="Segoe UI" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <DataGrid x:Name="DgGender" Grid.Row="1" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#132E4A" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              IsReadOnly="True" FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Literacy Statistics -->
+            <TabItem Header="  Literacy Statistics  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgLiteracy" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#132E4A" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              IsReadOnly="True" FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Employment Statistics -->
+            <TabItem Header="  Employment Statistics  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgEmployment" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#132E4A" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              IsReadOnly="True" FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Age Group Distribution -->
+            <TabItem Header="  Age Groups  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgAgeGroups" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#132E4A" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              IsReadOnly="True" FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Marital Status -->
+            <TabItem Header="  Marital Status  " Background="#1A3C5E" Foreground="White" FontSize="12">
+                <Grid Margin="10">
+                    <DataGrid x:Name="DgMaritalStatus" AutoGenerateColumns="True"
+                              Background="Transparent" RowBackground="white"
+                              AlternatingRowBackground="#132E4A" Foreground="#132E4A"
+                              BorderThickness="0" GridLinesVisibility="Horizontal"
+                              IsReadOnly="True" FontFamily="Segoe UI" FontSize="12"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>
